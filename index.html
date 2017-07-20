@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Senior Project</title>
+        <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./index.css"/>
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div id="top-buttons">
+            <button id="exit" onclick="exit()"/>
+            <button id="minimize" onclick="minimize()"/>
+            <button id="maximize" onclick="maximize()"/>
+        </div>
+        <div class="HelloScreen">
+            <div id="Hello">
+                <h1 class="typingText typeAnimLen6">Hello.</h1>
+            </div>
+            <div id="menu-buttons">
+                <button onclick="load_welcome()">WELCOME</button>
+                <br>
+                <button onclick="load_editor()">EDITOR</button>
+                <br>
+                <button onclick="load_settings()">SETTINGS</button>
+                <br>
+            </div>
+        </div>
+        <div id="right" class="">
+            <div id="welcome" class="">
+                <h2>Welcome to my Senior Project</h2>
+                <p>For my Senior Project I decided to develop a code editor. At first, I started to design it in Visual C++ using Microsoft's Window Forms, however, I realized that this gave me almost no custimization capability so I switched to Electron. Electron is a program that allows me to develop desktop applications using HTML CSS and Javascript, the three main website languages, which offers a perfect level of customization.</p>
+                <button href="https://github.com/ChrisBrownie55/Senior-Project">SEE THE CODE</button>
+            </div>
+            <div id="editor" class="">
+            </div>
+            <div id="settings" class="">
+            </div>
+        </div>
+    </body>
+</html>
